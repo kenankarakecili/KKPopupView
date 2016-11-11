@@ -12,6 +12,7 @@
 		3670466B1DD56F660003D5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367046691DD56F660003D5F9 /* Main.storyboard */; };
 		3670466D1DD56F660003D5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3670466C1DD56F660003D5F9 /* Assets.xcassets */; };
 		367046701DD56F660003D5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3670466E1DD56F660003D5F9 /* LaunchScreen.storyboard */; };
+		367046781DD574260003D5F9 /* KKPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367046771DD574260003D5F9 /* KKPopupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3670466C1DD56F660003D5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3670466F1DD56F660003D5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		367046711DD56F660003D5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		367046771DD574260003D5F9 /* KKPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKPopupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				367046651DD56F660003D5F9 /* AppDelegate.swift */,
 				367046671DD56F660003D5F9 /* ViewController.swift */,
+				367046771DD574260003D5F9 /* KKPopupView.swift */,
 				367046691DD56F660003D5F9 /* Main.storyboard */,
 				3670466C1DD56F660003D5F9 /* Assets.xcassets */,
 				3670466E1DD56F660003D5F9 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				367046681DD56F660003D5F9 /* ViewController.swift in Sources */,
+				367046781DD574260003D5F9 /* KKPopupView.swift in Sources */,
 				367046661DD56F660003D5F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
