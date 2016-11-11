@@ -12,7 +12,9 @@
 		3670466B1DD56F660003D5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 367046691DD56F660003D5F9 /* Main.storyboard */; };
 		3670466D1DD56F660003D5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3670466C1DD56F660003D5F9 /* Assets.xcassets */; };
 		367046701DD56F660003D5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3670466E1DD56F660003D5F9 /* LaunchScreen.storyboard */; };
-		367046781DD574260003D5F9 /* KKPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367046771DD574260003D5F9 /* KKPopupView.swift */; };
+		3670467B1DD578560003D5F9 /* KKPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3670467A1DD578560003D5F9 /* KKPopupView.swift */; };
+		3670467E1DD5789E0003D5F9 /* ViewToShow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3670467D1DD5789E0003D5F9 /* ViewToShow.xib */; };
+		367046801DD578AC0003D5F9 /* ViewToShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3670467F1DD578AC0003D5F9 /* ViewToShow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +25,9 @@
 		3670466C1DD56F660003D5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3670466F1DD56F660003D5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		367046711DD56F660003D5F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		367046771DD574260003D5F9 /* KKPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKPopupView.swift; sourceTree = "<group>"; };
+		3670467A1DD578560003D5F9 /* KKPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKPopupView.swift; sourceTree = "<group>"; };
+		3670467D1DD5789E0003D5F9 /* ViewToShow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewToShow.xib; sourceTree = "<group>"; };
+		3670467F1DD578AC0003D5F9 /* ViewToShow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewToShow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +61,32 @@
 			isa = PBXGroup;
 			children = (
 				367046651DD56F660003D5F9 /* AppDelegate.swift */,
+				367046791DD578180003D5F9 /* Utilities */,
+				3670467C1DD5785E0003D5F9 /* Views */,
 				367046671DD56F660003D5F9 /* ViewController.swift */,
-				367046771DD574260003D5F9 /* KKPopupView.swift */,
 				367046691DD56F660003D5F9 /* Main.storyboard */,
 				3670466C1DD56F660003D5F9 /* Assets.xcassets */,
 				3670466E1DD56F660003D5F9 /* LaunchScreen.storyboard */,
 				367046711DD56F660003D5F9 /* Info.plist */,
 			);
 			path = KKPopupView;
+			sourceTree = "<group>";
+		};
+		367046791DD578180003D5F9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3670467A1DD578560003D5F9 /* KKPopupView.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3670467C1DD5785E0003D5F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3670467D1DD5789E0003D5F9 /* ViewToShow.xib */,
+				3670467F1DD578AC0003D5F9 /* ViewToShow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +150,7 @@
 			files = (
 				367046701DD56F660003D5F9 /* LaunchScreen.storyboard in Resources */,
 				3670466D1DD56F660003D5F9 /* Assets.xcassets in Resources */,
+				3670467E1DD5789E0003D5F9 /* ViewToShow.xib in Resources */,
 				3670466B1DD56F660003D5F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				367046681DD56F660003D5F9 /* ViewController.swift in Sources */,
-				367046781DD574260003D5F9 /* KKPopupView.swift in Sources */,
+				3670467B1DD578560003D5F9 /* KKPopupView.swift in Sources */,
+				367046801DD578AC0003D5F9 /* ViewToShow.swift in Sources */,
 				367046661DD56F660003D5F9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

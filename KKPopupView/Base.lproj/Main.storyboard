@@ -18,80 +18,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="989-ef-yQB">
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My View" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgb-mB-hWJ">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="EZr-cI-Cb3"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Textfield1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ret-7C-TPb">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="4v5-cf-ysf"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Textfield2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="isD-6w-jdV">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="w6f-nS-smE"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Textfield3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5lW-Ll-xLb">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="yiQ-Dw-EvG"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="next"/>
-                                    </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Textfield4" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6N-af-X7X">
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Plq-Ab-njC"/>
-                                        </constraints>
-                                        <nil key="textColor"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" returnKeyType="done"/>
-                                    </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ymx-BA-qhO">
-                                        <mutableString key="text">This is a day I’ve been looking forward to for two-and-a-half years. Every once in a while, a revolutionary product comes along that changes everything. And Apple has been — well, first of all, one’s very fortunate if you get to work on just one of these in your career. Apple’s been very fortunate. It’s been able to introduce a few of these into the world. 1984, introduced the Macintosh. It didn’t just change Apple. It changed the whole computer industry. In 2001, we introduced the first iPod, and it didn’t just change the way we all listen to music, it changed the entire music industry. Well, today, we’re introducing three revolutionary products of this class. The first one is a widescreen iPod with touch controls. The second is a revolutionary mobile phone. And the third is a breakthrough Internet communications device. So, three things: a widescreen iPod with touch controls; a revolutionary mobile phone; and a breakthrough Internet communications device. An iPod, a phone, and an Internet communicator. An iPod, a phone … are you getting it?</mutableString>
-                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstItem="ret-7C-TPb" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="16" id="C9r-sl-xCO"/>
-                                    <constraint firstAttribute="trailing" secondItem="5lW-Ll-xLb" secondAttribute="trailing" constant="16" id="EFG-wH-6mi"/>
-                                    <constraint firstAttribute="trailing" secondItem="ret-7C-TPb" secondAttribute="trailing" constant="16" id="Em0-M7-3Jx"/>
-                                    <constraint firstAttribute="trailing" secondItem="Ymx-BA-qhO" secondAttribute="trailing" constant="16" id="IVs-zY-udj"/>
-                                    <constraint firstItem="Ymx-BA-qhO" firstAttribute="top" secondItem="isD-6w-jdV" secondAttribute="bottom" constant="8" id="P1w-AG-fP2"/>
-                                    <constraint firstAttribute="width" constant="240" id="U5s-hB-86B"/>
-                                    <constraint firstItem="5lW-Ll-xLb" firstAttribute="top" secondItem="Ymx-BA-qhO" secondAttribute="bottom" constant="8" id="Ube-au-wTh"/>
-                                    <constraint firstItem="jgb-mB-hWJ" firstAttribute="top" secondItem="989-ef-yQB" secondAttribute="top" constant="8" id="Vtr-gA-eIz"/>
-                                    <constraint firstItem="Ymx-BA-qhO" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="16" id="YU6-Ib-vMY"/>
-                                    <constraint firstAttribute="height" constant="400" id="YlF-He-inc"/>
-                                    <constraint firstAttribute="trailing" secondItem="isD-6w-jdV" secondAttribute="trailing" constant="16" id="Yse-c3-CB0"/>
-                                    <constraint firstItem="ret-7C-TPb" firstAttribute="top" secondItem="jgb-mB-hWJ" secondAttribute="bottom" constant="8" id="aKT-Ba-aCZ"/>
-                                    <constraint firstAttribute="trailing" secondItem="jgb-mB-hWJ" secondAttribute="trailing" constant="8" id="cEU-Le-C0H"/>
-                                    <constraint firstAttribute="trailing" secondItem="p6N-af-X7X" secondAttribute="trailing" constant="16" id="gbw-V6-fHx"/>
-                                    <constraint firstItem="5lW-Ll-xLb" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="16" id="mMB-cp-e1j"/>
-                                    <constraint firstItem="p6N-af-X7X" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="16" id="nsA-68-8CE"/>
-                                    <constraint firstItem="isD-6w-jdV" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="16" id="oCX-2E-5sN"/>
-                                    <constraint firstItem="isD-6w-jdV" firstAttribute="top" secondItem="ret-7C-TPb" secondAttribute="bottom" constant="8" id="qFf-ha-iuU"/>
-                                    <constraint firstItem="jgb-mB-hWJ" firstAttribute="leading" secondItem="989-ef-yQB" secondAttribute="leading" constant="8" id="qVc-Y9-pIr"/>
-                                    <constraint firstAttribute="bottom" secondItem="p6N-af-X7X" secondAttribute="bottom" constant="8" id="x50-lM-3NN"/>
-                                    <constraint firstItem="p6N-af-X7X" firstAttribute="top" secondItem="5lW-Ll-xLb" secondAttribute="bottom" constant="8" id="xn4-au-UND"/>
-                                </constraints>
-                            </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fmv-LU-zfF">
                                 <constraints>
                                     <constraint firstAttribute="width" constant="46" id="blg-4O-L6I"/>
@@ -99,6 +25,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
                                 <state key="normal" title="Show"/>
+                                <connections>
+                                    <action selector="showView:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Sr-n4-MEA"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KKPopupView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pzr-qa-Flv">
                                 <constraints>
@@ -114,9 +43,7 @@
                             <constraint firstItem="pzr-qa-Flv" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="54q-aI-d2S"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Fmv-LU-zfF" secondAttribute="bottom" constant="20" id="8M2-sg-lxf"/>
                             <constraint firstAttribute="trailing" secondItem="pzr-qa-Flv" secondAttribute="trailing" constant="16" id="9m1-dP-QCd"/>
-                            <constraint firstItem="989-ef-yQB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yec-vA-0H8"/>
                             <constraint firstItem="Fmv-LU-zfF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cKA-TU-lGT"/>
-                            <constraint firstItem="989-ef-yQB" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="clS-rm-8jH"/>
                             <constraint firstItem="pzr-qa-Flv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="cwy-6F-frW"/>
                         </constraints>
                     </view>
