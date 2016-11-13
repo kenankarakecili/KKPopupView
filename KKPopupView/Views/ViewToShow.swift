@@ -9,11 +9,17 @@
 import UIKit
 
 protocol ViewDelegate {
-  func viewButtonDidPress(text: String)
+  func viewButtonDidPress(text1: String,
+                          text2: String,
+                          text3: String,
+                          text4: String)
 }
 
 class ViewToShow: UIView {
   
+  @IBOutlet weak var field1: UITextField!
+  @IBOutlet weak var field2: UITextField!
+  @IBOutlet weak var field3: UITextField!
   @IBOutlet weak var field4: UITextField!
   @IBOutlet weak var okButton: UIButton!
   
@@ -32,11 +38,14 @@ class ViewToShow: UIView {
     let doneButton = UIBarButtonItem(title: "Done", style: UIBarButtonItemStyle.plain, target: self, action: #selector(toolbarDoneButtonAction))
     let space = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.flexibleSpace, target: nil, action: nil)
     toolbar.setItems([space, doneButton], animated: false)
+    field1.inputAccessoryView = toolbar
+    field2.inputAccessoryView = toolbar
+    field3.inputAccessoryView = toolbar
     field4.inputAccessoryView = toolbar
   }
   
   @objc private func toolbarDoneButtonAction() {
-    field4.resignFirstResponder()
+    endEditing(true)
   }
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -45,7 +54,10 @@ class ViewToShow: UIView {
   
   @IBAction func okButtonAction(_ sender: UIButton) {
     endEditing(true)
-    delegate?.viewButtonDidPress(text: field4.text!)
+    delegate?.viewButtonDidPress(text1: field4.text!,
+                                 text2: field2.text!,
+                                 text3: field3.text!,
+                                 text4: field4.text!)
   }
   
 }

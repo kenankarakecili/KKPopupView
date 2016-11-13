@@ -9,6 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+  
+  @IBOutlet weak var label1: UILabel!
+  @IBOutlet weak var label2: UILabel!
+  @IBOutlet weak var label3: UILabel!
+  @IBOutlet weak var label4: UILabel!
 
   let viewToShow = ViewToShow.instanceFromNib()
   
@@ -25,8 +30,12 @@ class ViewController: UIViewController {
 
 extension ViewController: ViewDelegate {
   
-  func viewButtonDidPress(text: String) {
+  func viewButtonDidPress(text1: String, text2: String, text3: String, text4: String) {
     KKPopupView.shared.dismissView()
+    label1.text = text1
+    label2.text = text2
+    label3.text = text3
+    label4.text = text4
   }
   
 }

@@ -55,7 +55,7 @@
                             <textInputTraits key="textInputTraits" returnKeyType="done"/>
                         </textField>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8sQ-hC-XAC">
-                            <mutableString key="text">This is a day I’ve been looking forward to for two-and-a-half years. Every once in a while, a revolutionary product comes along that changes everything. And Apple has been — well, first of all, one’s very fortunate if you get to work on just one of these in your career. Apple’s been very fortunate. It’s been able to introduce a few of these into the world. 1984, introduced the Macintosh. It didn’t just change Apple. It changed the whole computer industry. In 2001, we introduced the first iPod, and it didn’t just change the way we all listen to music, it changed the entire music industry. Well, today, we’re introducing three revolutionary products of this class. The first one is a widescreen iPod with touch controls. The second is a revolutionary mobile phone. And the third is a breakthrough Internet communications device. So, three things: a widescreen iPod with touch controls; a revolutionary mobile phone; and a breakthrough Internet communications device. An iPod, a phone, and an Internet communicator. An iPod, a phone … are you getting it?</mutableString>
+                            <string key="text">This is a day I’ve been looking forward to for two-and-a-half years. Every once in a while, a revolutionary product comes along that changes everything. And Apple has been — well, first of all, one’s very fortunate if you get to work on just one of these in your career. Apple’s been very fortunate. It’s been able to introduce a few of these into the world. 1984, introduced the Macintosh. It didn’t just change Apple. It changed the whole computer industry. In 2001, we introduced the first iPod, and it didn’t just change the way we all listen to music, it changed the entire music industry. Well, today, we’re introducing three revolutionary products of this class. The first one is a widescreen iPod with touch controls. The second is a revolutionary mobile phone. And the third is a breakthrough Internet communications device. So, three things: a widescreen iPod with touch controls; a revolutionary mobile phone; and a breakthrough Internet communications device. An iPod, a phone, and an Internet communicator. An iPod, a phone … are you getting it?</string>
                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
@@ -114,6 +114,9 @@
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="field1" destination="SUg-SW-VZZ" id="ihm-qQ-1z6"/>
+                <outlet property="field2" destination="SMd-lI-rJR" id="ogF-CP-wEK"/>
+                <outlet property="field3" destination="VoK-Ne-7aM" id="1Cp-2X-P9Y"/>
                 <outlet property="field4" destination="e4y-z2-ZOc" id="sAY-KR-OIY"/>
                 <outlet property="okButton" destination="UF1-sI-D8G" id="EFT-KW-tkh"/>
             </connections>
