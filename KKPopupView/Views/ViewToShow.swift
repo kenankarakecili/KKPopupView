@@ -54,7 +54,7 @@ class ViewToShow: UIView {
   
   @IBAction func okButtonAction(_ sender: UIButton) {
     endEditing(true)
-    delegate?.viewButtonDidPress(text1: field4.text!,
+    delegate?.viewButtonDidPress(text1: field1.text!,
                                  text2: field2.text!,
                                  text3: field3.text!,
                                  text4: field4.text!)
